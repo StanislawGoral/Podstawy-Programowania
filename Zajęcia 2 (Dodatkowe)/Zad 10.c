@@ -2,7 +2,7 @@
 
 int main() 
 {
-	int i, dz, mod, n;
+	int i, n;
 	
 	printf("Podaj wartosc maksymalna:\n\n");
 	scanf("%d", &n);
