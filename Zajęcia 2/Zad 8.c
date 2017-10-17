@@ -5,7 +5,7 @@ int main()
 {
 	int stala = 1;
 	int dzialanie = 0;
-	double a, b, cwiartka;
+	double a, b;
 	bool cw1, cw2, cw3 ,cw4;
 	
 	//printf("       y ^\nII       |        I\n         |\n         |\n         |\n         |\n---------+---------\n         |          x\n         |\n         |\n         |\nIII      |       IV\n"); - pusty wykres
