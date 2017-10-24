@@ -27,17 +27,16 @@ int main()
 	printf("Podaj wykladnik potegi liczby 2:\n\n");
 	scanf("%d", &n);
 	
-	int wynik = pow(n);
+	float wynik = pow(n);
 	
 	if (n<0)
 	{
-		printf("\n2^%d = 1/%d", n, wynik);
+		printf("\n2^%d = %.3f", n, 1.0/wynik);
 	}
 	else 
 	{
-		printf("\n2^%d = %d", n, wynik);
+		printf("\n2^%d = %.3f", n, wynik);
 	}
 	
 	return 0;
 }
-
