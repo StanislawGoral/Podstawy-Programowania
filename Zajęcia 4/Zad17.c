@@ -4,7 +4,7 @@ int cyfry(int x)
 {
 	int suma=0;
 	
-	{
+	
 	do
 		{
 			if(x%10 == 3 || x%10 == 6 || x%10 == 9)
@@ -14,7 +14,7 @@ int cyfry(int x)
 			x/=10;
 		}
 		while(x!=0);	
-	}
+	
 	return suma;
 }
 
